@@ -1,0 +1,21 @@
+class ObjectUtilities {
+  /* Your magic here */
+  constructor(objA, objB) {
+    this.objA = objA;
+    this.objB = objB;
+  }
+}
+
+
+클래스안 메소드를 사용하려면 클래스를 선언 후 인스턴스를 생성해야하지만 static 함수로 작성하면 바로 사용가능
+
+Spread 연산자를 사용해 객체 복사 가능 
+
+delete (객체).(제거할 요소) => 요소를 제거하여 반환
+
+Object.freeze(객체) => 해당 객체를 동결 시켜 읽기 전용으로 변환
+
+Object.values(객체) => 객체 내부 값을 배열로 반환
+
+Object.keys(객체) => 객체 내부 키를 배열로 반환 
+
