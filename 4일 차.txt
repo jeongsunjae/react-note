@@ -1,0 +1,19 @@
+// 리액트 챌린지 3일차
+
+// Css 작성하는 방식
+
+//1. css파일을 따로 정의
+Style.css 파일에서 css요소를 정리하여 관리한다 
+//이 방식은 컴포넌트와 css가 분리되어 있다 CSS는 글로벌로 작동하기 때문에 같은 태그가 있다면 이름을 다르게 해서 재정의 해야된다.
+
+//2. style.module.css (create-react-app 으로 만든 프로젝트만 가능)
+// 자바 스크립트 사용할 때 처럼 import 
+Style.module.css
+// 자동으로 각각의 속성에 다른 이름을 붙여준다.
+
+//3. styled-components 사용 
+자바스크립트 파일 안에서 const List = styled.ul`스타일 정의`과 같은 컴포넌트 형식으로 사용 가능
+
+
+//Globalstyle
+createGlobalSTyle을 사용하여 전체 적용될 css를 정의 할 수있다.
